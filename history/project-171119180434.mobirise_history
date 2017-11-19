@@ -1,20 +1,13 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "clickandgo.html",
     "versionFirst": "2.9",
-    "versionPublish": "4.4.0",
-    "name": "20160517",
+    "versionPublish": "2.9.6",
+    "name": "xti",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-100x100-1.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-74993250-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
     "publishType": "local",
-    "publishPath": "file:///Volumes/FAMBAR/OneDrive/HTML/Portfolio/website/20160517",
-    "theme": {},
-    "noImageResize": "",
-    "siteUrl": "",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "on",
-    "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 0
+    "publishPath": "file:///Volumes/FAMBAR/OneDrive/HTML/Portfolio/website/20160517"
   },
   "pages": {
     "index.html": {
@@ -53,14 +46,14 @@
           "_name": "menu",
           "_anchor": "menu-1",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "showButtons": false,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
             "sticky": true,
             "collapsed": false,
-            "transparent": true,
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff"
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
           },
           "logo": {
             "image": {
@@ -105,23 +98,23 @@
           },
           "_anchor": "header4-6",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": false,
-            "contentAlign": "center",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#4c6972",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
             "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#fd0303",
-            "overlayOpacity": "0.7"
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
           },
           "title": "DESIGNING MEANINGFUL<br>ONLINE COMMUNITIES",
           "text": "Adopting valuable visions, mindful action and&nbsp;empathic methods <br>will lead the way&nbsp;to the next step.&nbsp;<br>",
@@ -153,23 +146,23 @@
           },
           "_anchor": "header2-7",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "right",
+            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/imac-mock-idea2-1920x1080-30.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
             "bgColor": "#ffffff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
           "title": "CHALLENGE WORKFLOWS&nbsp;<br>AND TOOLS",
           "text": "Sketching, wireframing, drawing interfaces and prototyping are the \"<i>sine qua non\"</i>&nbsp;components of modern Interaction Design know-how<br>",
@@ -192,23 +185,23 @@
           },
           "_anchor": "header4-26",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-72.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#4c6972",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
             "overlay": true,
+            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
-            "overlayOpacity": "0.5"
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
           "title": "FROM ANALYSIS TO DELIVERY&nbsp;",
           "text": "Commit to complex processes for radical changes",
@@ -239,23 +232,23 @@
           },
           "_anchor": "header1-8",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "left",
+            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
             "bgColor": "#faaf40",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
           "title": "PROTOTYPE TO UNDERSTAND",
           "text": "<br>Going over the static screens, I spend time creating prototypes to understand and optimise user's flow.",
@@ -301,26 +294,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-2",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
             "showCaption": true,
-            "showText": true,
-            "showButton": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "darkBackground": false,
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": false,
+            "darkBackground": false
           },
           "title": "<br>WORKS<br><br>",
           "meta": "<span style=\"font-style: normal;\"><b>/;»</b></span>",
@@ -330,13 +323,8 @@
         {
           "_name": "gallery1",
           "_params": {
-            "fullWidth": false,
             "paddingTop": 3,
             "paddingBottom": "0",
-            "noGutter": false,
-            "showText": false,
-            "showBullets": true,
-            "bgColor": "#efefef",
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28-1920x1280-75-1920x1280-85.jpg",
@@ -389,7 +377,11 @@
                 "image": "@PROJECT_PATH@/assets/images/fe25c717118153-600x678-66.jpg",
                 "active": true
               }
-            ]
+            ],
+            "showText": false,
+            "bgColor": "#efefef",
+            "fullWidth": false,
+            "noGutter": false
           },
           "_anchor": "gallery1-5",
           "articleLayout": false
@@ -406,26 +398,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-73",
           "_params": {
-            "showTitle": false,
-            "showMeta": false,
             "showCaption": true,
-            "showText": false,
-            "showButton": true,
             "paddingTop": "0",
             "paddingBottom": 3,
+            "showTitle": false,
+            "showText": false,
+            "showButton": true,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "darkBackground": false,
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": false,
+            "darkBackground": false
           },
           "title": "MODERN STYLES",
           "meta": "By John Smith posted July 30, 2015",
@@ -463,26 +455,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-6",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
             "showCaption": true,
-            "showText": true,
-            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#ffffff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "darkBackground": false,
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": false,
+            "darkBackground": false
           },
           "title": "<div>I have an \"+\" shape formation crossing from philosophy to design, from social to technical. Combining theoretical with practical, social to technical, I am focusing now on Interaction and UI Design.&nbsp;</div><div>I also aim to add Product Design and Code above the list. &nbsp;</div><br><div><br></div>",
           "meta": "By John Smith posted July 30, 2015",
