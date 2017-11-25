@@ -1,13 +1,15 @@
 {
   "settings": {
-    "currentPage": "clickandgo.html",
+    "currentPage": "index.html",
     "versionFirst": "2.9",
-    "versionPublish": "2.9.6",
-    "name": "xti",
+    "versionPublish": "4.4.1",
+    "name": "portfolio2016",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-100x100-1.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-74993250-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
-    "publishType": "local",
-    "publishPath": "file:///Volumes/FAMBAR/OneDrive/HTML/Portfolio/website/20160517"
+    "path": "@PROJECT_PATH@",
+    "theme": {},
+    "noImageResize": "",
+    "uniqCompNum": 0
   },
   "pages": {
     "index.html": {
@@ -46,14 +48,14 @@
           "_name": "menu",
           "_anchor": "menu-1",
           "_params": {
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -98,23 +100,23 @@
           },
           "_anchor": "header4-6",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#fd0303",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": false
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fd0303",
+            "overlayOpacity": "0.7"
           },
           "title": "DESIGNING MEANINGFUL<br>ONLINE COMMUNITIES",
           "text": "Adopting valuable visions, mindful action and&nbsp;empathic methods <br>will lead the way&nbsp;to the next step.&nbsp;<br>",
@@ -146,23 +148,23 @@
           },
           "_anchor": "header2-7",
           "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/imac-mock-idea2-1920x1080-30.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "right",
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/imac-mock-idea2-1920x1080-30.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "CHALLENGE WORKFLOWS&nbsp;<br>AND TOOLS",
           "text": "Sketching, wireframing, drawing interfaces and prototyping are the \"<i>sine qua non\"</i>&nbsp;components of modern Interaction Design know-how<br>",
@@ -185,23 +187,23 @@
           },
           "_anchor": "header4-26",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-72.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#000000",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-72.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.5"
           },
           "title": "FROM ANALYSIS TO DELIVERY&nbsp;",
           "text": "Commit to complex processes for radical changes",
@@ -232,23 +234,23 @@
           },
           "_anchor": "header1-8",
           "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60.jpg",
-            "bgColor": "#faaf40",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "left",
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#faaf40",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "PROTOTYPE TO UNDERSTAND",
           "text": "<br>Going over the static screens, I spend time creating prototypes to understand and optimise user's flow.",
@@ -294,37 +296,42 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-2",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "<br>WORKS<br><br>",
           "meta": "<span style=\"font-style: normal;\"><b>/;»</b></span>",
           "text": "<h1><a href=\"radical_saas_service_redesign.html\" class=\"text-black\">SURF ACCOUNTS</a></h1><h1><a href=\"responsive_prototype.html\" class=\"text-black\">CLICK AND GO</a></h1><h1><a href=\"https://invis.io/PY6I5U29N\" class=\"text-black\" target=\"_blank\" style=\"font-family: inherit; line-height: 1.3em; background-color: rgb(255, 255, 255);\">STARBUCKS, HANDRAW PROTOTYP</a><span style=\"font-family: inherit; line-height: 1.3em;\">E</span><br></h1><h1><span style=\"font-family: inherit; line-height: 1.3em;\"><a href=\"app-demo.html\" class=\"text-black\">LADBROKES' DEMO</a></span></h1><h1><br></h1>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#gallery1-5\" data-toolbar=\"-mbrBtnMove\">SEE NEXT\u001b</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#gallery1-5\" data-toolbar=\"-mbrBtnMove\">NEXT\u001b</a>"
         },
         {
           "_name": "gallery1",
           "_params": {
+            "fullWidth": true,
             "paddingTop": 3,
             "paddingBottom": "0",
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#efefef",
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28-1920x1280-75-1920x1280-85.jpg",
@@ -377,11 +384,7 @@
                 "image": "@PROJECT_PATH@/assets/images/fe25c717118153-600x678-66.jpg",
                 "active": true
               }
-            ],
-            "showText": false,
-            "bgColor": "#efefef",
-            "fullWidth": false,
-            "noGutter": false
+            ]
           },
           "_anchor": "gallery1-5",
           "articleLayout": false
@@ -398,31 +401,31 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-73",
           "_params": {
-            "showCaption": true,
-            "paddingTop": "0",
-            "paddingBottom": 3,
             "showTitle": false,
+            "showMeta": false,
+            "showCaption": true,
             "showText": false,
             "showButton": true,
+            "paddingTop": "0",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "MODERN STYLES",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"gallery.html\" data-toolbar=\"-mbrBtnMove\">FULL GALLERY</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"gallery.html\" data-toolbar=\"-mbrBtnMove\">SEE GALLERY</a>"
         },
         {
           "_styles": {
@@ -455,30 +458,30 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-6",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "<div>I have an \"+\" shape formation crossing from philosophy to design, from social to technical. Combining theoretical with practical, social to technical, I am focusing now on Interaction and UI Design.&nbsp;</div><div>I also aim to add Product Design and Code above the list. &nbsp;</div><br><div><br></div>",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p><a href=\"mailto:cristifarcas@gmx.net \" target=\"_blank\" class=\"text-danger\">cristifarcas@gmx.net </a>&nbsp; | &nbsp; <a href=\"https://www.linkedin.com/in/cristifarcas\" target=\"_blank\" class=\"text-black\">Linkedin Profile</a>&nbsp; &nbsp;| &nbsp;<a href=\"http://cristiandreifarcas.wix.com/graphic-designer\" target=\"_blank\" class=\"text-danger\">More works on Wix</a>&nbsp;&nbsp;</p><p> &nbsp; <a href=\"/cv/Farcas_Cristian_RESUME_2016.pdf\" target=\"_blank\" class=\"text-black\" style=\"background-color: rgb(255, 255, 255);\">Download CV as PDF</a>&nbsp; | &nbsp;<a href=\"main_slide.html\" class=\"text-danger\" target=\"_blank\">Presentation</a></p>",
+          "text": "<p><a href=\"mailto:cristifarcas@gmx.net \" target=\"_blank\" class=\"text-danger\">cristifarcas@gmx.net </a>&nbsp; | &nbsp; <a href=\"https://www.linkedin.com/in/cristifarcas\" target=\"_blank\" class=\"text-black\">Linkedin Profile</a>&nbsp; &nbsp;| &nbsp;<a href=\"http://cristiandreifarcas.wix.com/graphic-designer\" target=\"_blank\" class=\"text-danger\">More works on Wix</a>&nbsp;&nbsp;</p><p> &nbsp; <a href=\"/cv/Farcas_Cristian_RESUME_2016.pdf\" target=\"_blank\" class=\"text-black\" style=\"background-color: rgb(255, 255, 255);\">Download CV as PDF</a>&nbsp; | &nbsp;<a href=\"strata3_presentation.html\" class=\"text-danger\">Presentation</a></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"/cv/Farcas_Cristian_RESUME_2016.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Download CV as PDF</a>"
         }
       ]
@@ -514,14 +517,14 @@
           "_name": "menu",
           "_anchor": "menu-1",
           "_params": {
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -561,23 +564,23 @@
           },
           "_anchor": "header4-8",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/imac-mock-idea2-1920x1080-30-1920x1080-63-1920x1080-76-1920x1080-45.jpg",
-            "bgColor": "#2c82c9",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "right",
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#000000",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/imac-mock-idea2-1920x1080-30-1920x1080-63-1920x1080-76-1920x1080-45.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c82c9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
           },
           "title": "CLICKandGO",
           "text": "throughout a hi-fidelity, responsive prototype <br>design process for this successful Irish travel company.<br>",
@@ -603,26 +606,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-10",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "PROJECT MISSION",
           "meta": "By John Smith posted July 30, 2015",
@@ -654,25 +657,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-11",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/headerimage-2043x1430-17.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/headerimage-2043x1430-17.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -722,25 +726,26 @@
           "_name": "msg-box5",
           "_anchor": "msg-box5-12",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -790,25 +795,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-13",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -855,23 +861,23 @@
           },
           "_anchor": "header1-16",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/perspective-app-screens-mock-up-1400-1400x788-74.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "left",
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#222222",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/perspective-app-screens-mock-up-1400-1400x788-74.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.6"
           },
           "title": "A FULLY RESPONSIVE GRID SYSTEM<br>",
           "text": "The prototype was designed within a modular, column-based layout system: starting with a 320px width for a holiday offer thumbnail, we created three layout type with breaking points to fit large, medium and mobile screens. The large ones could accommodate 4 thumbnail columns, the medium 3 and finally one column for smartphones.<br>",
@@ -896,26 +902,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-15",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": false,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "...",
           "meta": "By John Smith posted July 30, 2015",
@@ -949,26 +955,25 @@
           "_name": "content5",
           "_anchor": "content5-16",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
             "showText": true,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-preview-1920x463-61.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": true,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
-            "showMeta": false,
-            "darkBackground": true
+            "overlayOpacity": "0.5"
           },
           "title": "DARING A RADICAL CHANGE",
           "meta": "",
@@ -1008,14 +1013,14 @@
           "_name": "menu",
           "_anchor": "menu-17",
           "_params": {
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -1056,23 +1061,23 @@
           },
           "_anchor": "header4-18",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-25.jpg",
-            "bgColor": "#2c82c9",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#fd0303",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-25.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c82c9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fd0303",
+            "overlayOpacity": "0.7"
           },
           "title": "SURF ACCOUNTS SAA\u001bS",
           "text": "A radical rebrand and front-end website redesign. From thoughtful reports to wireframes, prototypes, and multiple iterations, at BrandX, we have dedicated ourselves to a complete analysis-to-delivery process.",
@@ -1106,26 +1111,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-19",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "PROJECT MISSION",
           "meta": "By John Smith posted July 30, 2015",
@@ -1160,25 +1165,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-20",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-analysis-1920x1080-75.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/surf-analysis-1920x1080-75.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1228,25 +1234,26 @@
           "_name": "msg-box5",
           "_anchor": "msg-box5-21",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1296,25 +1303,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-22",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1360,23 +1368,23 @@
           },
           "_anchor": "header1-23",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-zoomed-1400x787-76.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": false,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#222222",
             "showTitle": false,
             "showText": false,
             "showButtons": false,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-zoomed-1400x787-76.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.6"
           },
           "title": "A FULLY RESPONSIVE GRID SYSTEM<br><br>",
           "text": "The prototype was designed within a modular, column-based layout system: starting with a 320px width for a holiday offer thumbnail, we created three layout type with breaking points to fit large, medium and mobile screens. The large ones could accommodate 4 thubnail columns, the medium 3 and finally one column for smartphones.<br>",
@@ -1403,26 +1411,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-24",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "FINAL WORDS &amp; CREDITS",
           "meta": "By John Smith posted July 30, 2015",
@@ -1456,26 +1464,25 @@
           "_name": "content5",
           "_anchor": "content5-25",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
             "showText": true,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/3-3-1920x1080-99-1920x1080-55-800x450-80.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": true,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
-            "showMeta": false,
-            "darkBackground": true
+            "overlayOpacity": "0.5"
           },
           "title": "LADBROKES APP",
           "meta": "",
@@ -1515,14 +1522,14 @@
           "_name": "menu",
           "_anchor": "menu-38",
           "_params": {
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -1563,23 +1570,23 @@
           },
           "_anchor": "header4-39",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60-1920x1080-91.jpg",
-            "bgColor": "#2c82c9",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "left",
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#fd0303",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60-1920x1080-91.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c82c9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fd0303",
+            "overlayOpacity": "0.6"
           },
           "title": "LADBROKES DEMO APP",
           "text": "Ladbrokes' demo app is a project to gamify staff's training. Going over the static screens design, we spent time creating a prototype to understand and optimise user's flow.",
@@ -1613,26 +1620,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-40",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "PROJECT MISSION",
           "meta": "By John Smith posted July 30, 2015",
@@ -1667,25 +1674,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-41",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-analysis-1920x1080-75.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/surf-analysis-1920x1080-75.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1735,25 +1743,26 @@
           "_name": "msg-box5",
           "_anchor": "msg-box5-42",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1803,25 +1812,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-43",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -1867,23 +1877,23 @@
           },
           "_anchor": "header1-44",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/3-3-1920x1080-99-1920x1080-43.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "left",
-            "overlay": false,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#222222",
             "showTitle": false,
             "showText": false,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/3-3-1920x1080-99-1920x1080-43.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.6"
           },
           "title": "A FULLY RESPONSIVE GRID SYSTEM<br><br>",
           "text": "Ladbrokes' demo app is a project to gamify staff's training. Going over the static screens design, we spent time creating a prototype to understand and optimise user's flow.<br>",
@@ -1910,26 +1920,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-45",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "FINAL WORDS &amp; CREDITS",
           "meta": "By John Smith posted July 30, 2015",
@@ -1941,27 +1951,27 @@
           "_name": "content4",
           "_anchor": "content4-53",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showHeader": false,
             "showSubheader": false,
-            "columns": 5,
             "showImages": false,
             "showTitles": true,
             "showCaptions": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": 5,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "headerAlign": "left",
           "header": "DROP-DEAD EASY WEBSITE MAKER",
@@ -2084,26 +2094,25 @@
           "_name": "content5",
           "_anchor": "content5-46",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
             "showText": true,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/starbucks-1920px-preview-1920x463-97.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": true,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
-            "showMeta": false,
-            "darkBackground": true
+            "overlayOpacity": "0.5"
           },
           "title": "HAND DRAWN BASED ADMIN PROTOTYPE",
           "meta": "",
@@ -2143,14 +2152,14 @@
           "_name": "menu",
           "_anchor": "menu-29",
           "_params": {
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -2191,23 +2200,23 @@
           },
           "_anchor": "header4-30",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60-1920x1080-91.jpg",
-            "bgColor": "#2c82c9",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "left",
-            "overlay": false,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#fd0303",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60-1920x1080-91.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c82c9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fd0303",
+            "overlayOpacity": "0.6"
           },
           "title": "LADBROKES DEMO APP",
           "text": "Ladbrokes' demo app is a project to gamify staff's training. Going over the static screens design, we spent time creating a prototype to understand and optimise user's flow.",
@@ -2241,26 +2250,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-31",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "PROJECT MISSION",
           "meta": "By John Smith posted July 30, 2015",
@@ -2295,25 +2304,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-32",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-analysis-1920x1080-75.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/surf-analysis-1920x1080-75.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -2367,25 +2377,26 @@
           "_name": "msg-box5",
           "_anchor": "msg-box5-33",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -2432,23 +2443,23 @@
           },
           "_anchor": "header1-35",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/ladbrokes-all-screens-1920x1080-60.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "right",
-            "overlay": false,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#222222",
             "showTitle": false,
             "showText": false,
             "showButtons": false,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/ladbrokes-all-screens-1920x1080-60.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.6"
           },
           "title": "A FULLY RESPONSIVE GRID SYSTEM<br><br>",
           "text": "Ladbrokes' demo app is a project to gamify staff's training. Going over the static screens design, we spent time creating a prototype to understand and optimise user's flow.<br>",
@@ -2475,26 +2486,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-36",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "FINAL WORDS &amp; CREDITS",
           "meta": "By John Smith posted July 30, 2015",
@@ -2528,26 +2539,25 @@
           "_name": "content5",
           "_anchor": "content5-37",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
             "showText": true,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/starbucks-1920px-preview-1920x463-97.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": true,
             "overlay": true,
-            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
-            "showMeta": false,
-            "darkBackground": true
+            "overlayOpacity": "0.5"
           },
           "title": "HAND DRAWN BASED ADMIN PROTOTYPE",
           "meta": "",
@@ -2578,14 +2588,14 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-51",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": false,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": true
+            "showButtons": true,
+            "sticky": false,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -2620,26 +2630,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-52",
           "_params": {
-            "showCaption": true,
-            "paddingTop": "4",
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": true,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": true,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "UX DESIGN CHALANGE",
           "meta": "April 25, 2016",
@@ -2662,26 +2672,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-53",
           "_params": {
-            "showCaption": true,
-            "paddingTop": "4",
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "DESIGN BRIEF",
           "meta": "By John Smith posted July 30, 2015",
@@ -2719,26 +2729,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-57",
           "_params": {
-            "showCaption": true,
-            "paddingTop": "4",
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "USER FLOW ANALYSYS",
           "meta": "<span style=\"font-style: normal;\">REASERCH</span>",
@@ -2755,9 +2765,9 @@
           },
           "_anchor": "image1-56",
           "_params": {
+            "showText": true,
             "outside": true,
-            "bgColor": "#ffffff",
-            "showText": true
+            "bgColor": "#ffffff"
           },
           "media": {
             "image": {
@@ -2792,26 +2802,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-63",
           "_params": {
-            "showCaption": true,
-            "paddingTop": "0",
-            "paddingBottom": "4",
             "showTitle": false,
+            "showMeta": false,
+            "showCaption": true,
             "showText": false,
             "showButton": true,
+            "paddingTop": "0",
+            "paddingBottom": "4",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "MODERN STYLES",
           "meta": "By John Smith posted July 30, 2015",
@@ -2867,20 +2877,20 @@
           ],
           "_anchor": "testimonials1-54",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "count": 3,
+            "showTitle": true,
             "showName": true,
             "showBio": true,
+            "count": 3,
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#252525",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#252525",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "header": "USERS OPINIONS ON TWITTER"
         },
@@ -2902,26 +2912,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-59",
           "_params": {
-            "showCaption": true,
-            "paddingTop": "4",
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "A NEW AND SIMPLIFIED<br>USER JOURNEY",
           "meta": "By John Smith posted July 30, 2015",
@@ -2937,9 +2947,9 @@
           },
           "_anchor": "image1-58",
           "_params": {
+            "showText": false,
             "outside": true,
-            "bgColor": "#252525",
-            "showText": false
+            "bgColor": "#252525"
           },
           "media": {
             "image": {
@@ -2974,26 +2984,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-64",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": false,
+            "showMeta": false,
+            "showCaption": true,
             "showText": false,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "MODERN STYLES",
           "meta": "By John Smith posted July 30, 2015",
@@ -3012,27 +3022,27 @@
           },
           "_anchor": "features1-66",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showHeader": true,
             "showSubheader": true,
-            "columns": "2",
             "showImages": true,
             "showTitles": true,
             "showCaptions": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "headerAlign": "left",
           "header": "A COMPARATIVE VIEW OF&nbsp;<div>THE TWO USER JOURNEYS</div>",
@@ -3146,27 +3156,27 @@
           },
           "_anchor": "content4-65",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showHeader": true,
             "showSubheader": false,
-            "columns": "4",
             "showImages": false,
             "showTitles": true,
             "showCaptions": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "headerAlign": "left",
           "header": "RESOURCES",
@@ -3299,14 +3309,14 @@
           "_name": "menu",
           "_anchor": "menu-62",
           "_params": {
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -3327,8 +3337,13 @@
         {
           "_name": "gallery1",
           "_params": {
+            "fullWidth": false,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#000000",
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28-1920x1280-75-1920x1280-85.jpg",
@@ -3401,11 +3416,7 @@
                 "image": "@PROJECT_PATH@/assets/images/dalls-700x438-35.jpg",
                 "active": false
               }
-            ],
-            "showText": false,
-            "bgColor": "#000000",
-            "fullWidth": false,
-            "noGutter": false
+            ]
           },
           "_anchor": "gallery1-68",
           "articleLayout": false
@@ -3441,26 +3452,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-69",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": false,
+            "showMeta": true,
+            "showCaption": true,
             "showText": false,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": true,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "<div>I have an \"+\" shape formation crossing from philosophy to design, from social to technical. Combining theoretical with practical, social to technical, I am focusing now on Interaction and UI Design.&nbsp;</div><div>I also aim to add Product Design and Code above the list. &nbsp;</div><br><div><br></div>",
           "meta": "By John Smith posted July 30, 2015",
@@ -3504,14 +3515,14 @@
           "_name": "menu",
           "_anchor": "menu-70",
           "_params": {
-            "color": "#fd0303",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#fd0303",
+            "hamburgerColor": "#ffffff"
           },
           "logo": {
             "image": {
@@ -3556,23 +3567,23 @@
           },
           "_anchor": "header4-71",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#fd0303",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": false
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fd0303",
+            "overlayOpacity": "0.7"
           },
           "title": "DESIGNING MEANINGFUL<br>ONLINE COMMUNITIES",
           "text": "Adopting valuable visions, mindful action and&nbsp;empathic methods <br>will lead the way&nbsp;to the next step.&nbsp;<br>",
@@ -3604,23 +3615,23 @@
           },
           "_anchor": "header2-72",
           "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/imac-mock-idea2-1920x1080-30.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "right",
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/imac-mock-idea2-1920x1080-30.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "CHALLENGE WORKFLOWS&nbsp;<br>AND TOOLS",
           "text": "Sketching, wireframing, drawing interfaces and prototyping are the \"<i>sine qua non\"</i>&nbsp;components of modern Interaction Design know-how<br>",
@@ -3643,23 +3654,23 @@
           },
           "_anchor": "header4-73",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-72.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#000000",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-72.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.5"
           },
           "title": "FROM ANALYSIS TO DELIVERY&nbsp;",
           "text": "Commit to complex processes for radical changes",
@@ -3690,23 +3701,23 @@
           },
           "_anchor": "header1-74",
           "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60.jpg",
-            "bgColor": "#faaf40",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "left",
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/3-2-1920x1080-60.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#faaf40",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "PROTOTYPE TO UNDERSTAND",
           "text": "<br>Going over the static screens, I spend time creating prototypes to understand and optimise user's flow.",
@@ -3752,26 +3763,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-75",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "<br>WORKS<br><br>",
           "meta": "<span style=\"font-style: normal;\"><b>/;»</b></span>",
@@ -3781,8 +3792,13 @@
         {
           "_name": "gallery1",
           "_params": {
+            "fullWidth": false,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "bgColor": "#efefef",
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/scene-1920px-1920x1280-83-1920x1280-28-1920x1280-75-1920x1280-85.jpg",
@@ -3855,11 +3871,7 @@
                 "image": "@PROJECT_PATH@/assets/images/dalls-700x438-35.jpg",
                 "active": false
               }
-            ],
-            "showText": false,
-            "bgColor": "#efefef",
-            "fullWidth": false,
-            "noGutter": false
+            ]
           },
           "_anchor": "gallery1-76",
           "articleLayout": false
@@ -3895,26 +3907,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-77",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
             "showTitle": true,
+            "showMeta": false,
+            "showCaption": true,
             "showText": true,
             "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
+            "darkBackground": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showMeta": false,
-            "darkBackground": false
+            "overlayOpacity": 0.5
           },
           "title": "<div>I have an \"+\" shape formation crossing from philosophy to design, from social to technical. Combining theoretical with practical, social to technical, I am focusing now on Interaction and UI Design.&nbsp;</div><div>I also aim to add Product Design and Code above the list. &nbsp;</div><br><div><br></div>",
           "meta": "By John Smith posted July 30, 2015",
@@ -3945,8 +3957,11 @@
           },
           "_params": {
             "autoplay": false,
+            "fullScreen": false,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#000000",
             "slides": [
               {
                 "active": true,
@@ -3956,7 +3971,7 @@
                 "overlayOpacity": "0.8",
                 "overlayColor": "#fd0303",
                 "showTitle": true,
-                "title": "Surf Account<br>A complete redesign process",
+                "title": "Surf Account<br>A complete wegsite&nbsp;redesign process",
                 "showText": true,
                 "text": "Analisys | UX | UI&nbsp;",
                 "showButtons": true,
@@ -3965,7 +3980,7 @@
               {
                 "active": false,
                 "image": "@PROJECT_PATH@/assets/images/3-3-1920x1080-74.jpg",
-                "contentAlign": "center",
+                "contentAlign": "right",
                 "overlay": true,
                 "overlayOpacity": "0.4",
                 "overlayColor": "#fd0303",
@@ -4004,10 +4019,7 @@
                 "showButtons": true,
                 "buttons": "   <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"gallery.html\" data-toolbar=\"-mbrBtnMove\">See Gallery</a>"
               }
-            ],
-            "fullScreen": false,
-            "bgColor": "#000000",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-43",
           "articleLayout": false
@@ -4024,23 +4036,23 @@
           "_name": "msg-box1",
           "_anchor": "msg-box1-48",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#262626",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#262626",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "Interview Presentation&nbsp;",
           "text": "",
@@ -4066,8 +4078,11 @@
           },
           "_params": {
             "autoplay": false,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": false,
+            "bgColor": "#252525",
             "slides": [
               {
                 "active": false,
@@ -4077,7 +4092,7 @@
                 "overlayOpacity": "0.7",
                 "overlayColor": "#fd0303",
                 "showTitle": true,
-                "title": "<div style=\"text-align: left;\"><span style=\"color: inherit; font-family: inherit; text-align: right;\">LADBROKES DEMO&nbsp;<br><br>is a pitch project aiming to create a gamified experience for staff training.</span></div>",
+                "title": "<span style=\"color: inherit; font-family: inherit;\">Ladbrokes' demo app is a project to gamify staff's training. Going over the static screens design, we spent time creating a prototype to understand and optimise user's flow.</span><br>",
                 "showText": false,
                 "text": "LADBROKES DEMO APP<br>Ladbrokes' demo app is a project to gamify staff's training. Going over the static screens design, we spent time creating a prototype to understand and optimise user's flow.<br>",
                 "showButtons": false,
@@ -4095,7 +4110,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/empty-1920x1080-43.png",
                 "contentAlign": "right",
                 "overlay": true,
@@ -4104,12 +4119,12 @@
                 "showTitle": true,
                 "title": "<span style=\"color: inherit; font-family: inherit;\">A fast-paced process</span><br><span style=\"color: inherit; font-family: inherit;\">Remote collaboration</span><br><span style=\"color: inherit; font-family: inherit;\">3 companies involved</span><span style=\"color: inherit; font-family: inherit;\"><br></span><br>",
                 "showText": true,
-                "text": "After a few iterations, trying to find the right UI styling, we went over our partner's expectations by delivering a completely functional and testable prototype.<br>",
+                "text": "After a few iterations, trying to find the right UI styling, we went over our partner's expectations by delivering a completely functional and testable prototype<br>",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/3-3-1920x1080-89.jpg",
                 "contentAlign": "right",
                 "showTitle": false,
@@ -4131,12 +4146,9 @@
                 "showText": true,
                 "text": "- we went over our partner's expectations by delivering a completely functional and testable prototype<br>",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-success\" href=\"https://goo.gl/rYzhi5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Live Demo</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"main_slide.html\" data-toolbar=\"-mbrBtnMove\">BACK TO SUMMARY</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-success\" href=\"https://goo.gl/rYzhi5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Live Demo</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"main_slide.html\" data-toolbar=\"-mbrBtnMove\">Back to the main slide</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#252525",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-50",
           "articleLayout": false
@@ -4159,8 +4171,11 @@
           },
           "_params": {
             "autoplay": false,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fd0303",
             "slides": [
               {
                 "active": false,
@@ -4194,11 +4209,11 @@
                 "image": "@PROJECT_PATH@/assets/images/leisureplex-mock-left-1920x1080-89.jpg",
                 "contentAlign": "right",
                 "showTitle": true,
-                "title": "Optimising<br>Leisureplex",
+                "title": "Leisureplex",
                 "showText": true,
-                "text": "- understand user behaviour<br>- study and testing alternatives&nbsp;<br>",
+                "text": "- thoughtful optimisation process<br>- use of best practices<br>- user testing tools using Hotjar&nbsp;<br>",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://goo.gl/ieb1xd\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">USABILITY TESTING</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://insights.hotjar.com/h?site=9850&amp;heatmap=22272&amp;token=5a8e932439f294f6e4daa914394a07d0\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">See Heatmaps</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://leisureplex.ie\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">leisureplex.ie</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://insights.hotjar.com/h?site=9850&amp;heatmap=22272&amp;token=5a8e932439f294f6e4daa914394a07d0\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">See Heatmaps</a>"
               },
               {
                 "active": true,
@@ -4207,14 +4222,11 @@
                 "showTitle": true,
                 "title": "Optimising Workflow",
                 "showText": true,
-                "text": "<br>- finding best practices in delivering <br>hi quality assets for business<br>- modular content strategy<br>- reducing time-consuming workflows<br>",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://goo.gl/9gkctl\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">NUDGE CRM EMAIL</a> "
+                "text": "<br>- finding best practices in delivering <br>hi quality assets for business<br>- modular content strategy<br>- reducing time consuming<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">leisureplex.ie</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://insights.hotjar.com/h?site=9850&amp;heatmap=22272&amp;token=5a8e932439f294f6e4daa914394a07d0\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">See Heatmaps</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fd0303",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-50",
           "articleLayout": false
@@ -4231,23 +4243,23 @@
           "_name": "msg-box1",
           "_anchor": "msg-box1-51",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#3C3C3C",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#3C3C3C",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "AXA Interview",
           "text": "This presentation is aimed to showcase key UI / UX process used in recent projects. Each slide contains a link to a presentation and to a shared prototype, as a visual support for any further talk trough..",
@@ -4273,11 +4285,14 @@
           },
           "_params": {
             "autoplay": false,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#252525",
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/surf-accounts-isometric-1920x1080-3.jpg",
                 "contentAlign": "left",
                 "overlay": true,
@@ -4297,11 +4312,11 @@
                 "overlay": true,
                 "overlayOpacity": "0.8",
                 "showTitle": true,
-                "title": "1. Analysis Report<br><br>",
+                "title": "Analysis Report<br><br>",
                 "showText": true,
-                "text": "- make a complete review of competitors' websites and their communication strategy using <a href=\"https://archive.org/web/\" target=\"_blank\" class=\"text-white\">https://archive.org/web/</a><br><br>- advocate for a stategy switch from a 'app centred' to a 'user story' content strategy<br>",
+                "text": "- make a complete review of competitors' website and communication history using https://archive.org/web/<br><br>- lobby for a switch from a 'service/app centred' to a 'user story' content strategy<br>",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"www.cristifarcas.com/pdfs/study3.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">REPORT EXCERPT</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"www.cristifarcas.com/pdfs/study3.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Report Excerpt</a>"
               },
               {
                 "active": false,
@@ -4322,11 +4337,11 @@
                 "overlayOpacity": "1",
                 "overlayColor": "#fd0303",
                 "showTitle": true,
-                "title": "2. SiteMaping &amp;<br>Wireframing<br><br>",
+                "title": "SiteMaping &amp;<br>Content Breakdown<br><br>",
                 "showText": true,
-                "text": "- the first overview of users' flow and interactions with the product,<br>- identify the amount of pages needed<br>- simplify the content required<br>",
+                "text": "- first overview of users flow and interactions with the product,<br>- identify the amount of pages needed<br>- symplify the content required",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.cristifarcas.com/pdfs/study4.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Site Map</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.cristifarcas.com/pdf/study2.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Wireframes</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.cristifarcas.com/pdf/study4.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Site Map</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.cristifarcas.com/pdf/study2.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Wireframes</a>"
               },
               {
                 "active": false,
@@ -4351,16 +4366,16 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/empty-1920x1080-30.png",
                 "contentAlign": "left",
                 "overlay": true,
                 "overlayOpacity": "1",
                 "overlayColor": "#fd0303",
                 "showTitle": true,
-                "title": "3.Hi-fi Layouts&nbsp;with a clean&nbsp;and engaging<br> look and feel<br><br>",
+                "title": "Hi-fi Layouts&nbsp;with a clean&nbsp;and engaging<br> look and feel<br><br>",
                 "showText": true,
-                "text": "- icon based features to help memorability<br>- clear CTAs to guide user's journey<br>- a bootstrap grid system for easy responsive &nbsp;implementation<br>",
+                "text": "- icon based features to help memorability<br>- clear CTAs to guide user's journey<br>- bootstrap grid system for easy responsive implementation<br>",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://invis.io/TR6U2IQVZ\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">View Prototype</a>"
               },
@@ -4378,10 +4393,7 @@
                 "showButtons": false,
                 "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-success\" href=\"https://invis.io/TR6U2IQVZ\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">See Prototype</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"axa_presentation.html\" data-toolbar=\"-mbrBtnMove\">Main Slide</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#252525",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-52",
           "articleLayout": false
