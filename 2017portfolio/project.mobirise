@@ -3,8 +3,8 @@
     "name": "2017web",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 151,
-    "versionPublish": "4.6.6",
+    "uniqCompNum": 155,
+    "versionPublish": "4.12.3",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -39,7 +39,9 @@
     "favicon": "",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///Users/mimac/Documents/GitHub/cristifarcas.github.io"
   },
   "pages": {
     "index.html": {
